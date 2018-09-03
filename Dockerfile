@@ -1,4 +1,4 @@
-FROM norman404/berdof/docker-loopback
+FROM norman404/loopback
 
 WORKDIR /app
 
