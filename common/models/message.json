@@ -3,15 +3,17 @@
   "base": "Model",
   "properties": {},
   "methods": {
-    "greet": {
+    "pepe": {
       "isStatic": true,
-      "accepts": [{
-        "arg": "msg",
-        "type": "string",
-        "http": {
-          "source": "query"
+      "accepts": [
+        {
+          "arg": "msg",
+          "type": "string",
+          "http": {
+            "source": "query"
+          }
         }
-      }],
+      ],
       "returns": {
         "arg": "greeting",
         "type": "string"
